@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#8257e5',
+    backgroundColor: '#8257E5',
     justifyContent: 'center',
     padding: 40,
   },
@@ -52,6 +52,15 @@ const styles = StyleSheet.create({
     fontFamily: 'Archivo_700Bold',
     color: '#fff',
     fontSize: 20,
+  },
+
+  totalConnections: {
+    fontFamily: 'Poppins_400Regular',
+    color: '#d4c2ff',
+    fontSize: 12,
+    lineHeight: 20,
+    maxWidth: 140,
+    marginTop: 40,
   }
 
 });
